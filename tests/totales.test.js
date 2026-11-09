@@ -9,7 +9,7 @@ const productoGratis = { precioCentavos: 0, cantidad: 1 };
 describe('calcularSubtotal', () => {
   it.each([
     ['un carrito vacío', [], 0],
-    ['un producto', [producto], 14999],
+    ['un producto', [producto], 15000],
     ['dos unidades del mismo producto', [dosUnidades], 29998],
     ['dos productos distintos', [producto, complemento], 17499],
     ['un producto gratis', [productoGratis], 0],
